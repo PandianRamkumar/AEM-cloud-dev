@@ -3,17 +3,738 @@
   <component name="AemProjectConfiguration">
     <option name="wasInitialized" value="true" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a696ff49-cf94-4fe8-9ba2-63335b801d05" name="Changes" comment="" />
+    <list default="true" id="a696ff49-cf94-4fe8-9ba2-63335b801d05" name="Changes" comment="Committed files fom first AEM cloud project">
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/all/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/all/src/main/content/META-INF/vault/definition/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/all/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/archetype.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/main/java/com/adobe/aem/guides/wknd/core/filters/LoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/main/java/com/adobe/aem/guides/wknd/core/filters/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/main/java/com/adobe/aem/guides/wknd/core/listeners/SimpleResourceListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/main/java/com/adobe/aem/guides/wknd/core/listeners/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/main/java/com/adobe/aem/guides/wknd/core/models/HelloWorldModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/main/java/com/adobe/aem/guides/wknd/core/models/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/main/java/com/adobe/aem/guides/wknd/core/schedulers/SimpleScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/main/java/com/adobe/aem/guides/wknd/core/schedulers/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/main/java/com/adobe/aem/guides/wknd/core/servlets/SimpleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/main/java/com/adobe/aem/guides/wknd/core/servlets/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/test/java/com/adobe/aem/guides/wknd/core/filters/LoggingFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/test/java/com/adobe/aem/guides/wknd/core/listeners/SimpleResourceListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/test/java/com/adobe/aem/guides/wknd/core/models/HelloWorldModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/test/java/com/adobe/aem/guides/wknd/core/schedulers/SimpleScheduledTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/test/java/com/adobe/aem/guides/wknd/core/servlets/SimpleServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/core/src/test/java/com/adobe/aem/guides/wknd/core/testcontext/AppAemContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/assembly.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.d/available_vhosts/default.vhost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.d/dispatcher_vhost.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.d/enabled_vhosts/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.d/enabled_vhosts/default.vhost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.d/rewrites/default_rewrite.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.d/rewrites/rewrite.rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.d/variables/custom.vars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.d/variables/global.vars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/available_farms/default.farm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/cache/default_invalidate.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/cache/default_rules.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/cache/rules.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/clientheaders/clientheaders.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/clientheaders/default_clientheaders.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/dispatcher.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/enabled_farms/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/enabled_farms/default.farm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/filters/default_filters.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/filters/filters.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/renders/default_renders.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/virtualhosts/default_virtualhosts.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/conf.dispatcher.d/virtualhosts/virtualhosts.any" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/dispatcher/src/opt-in/USE_SOURCES_DIRECTLY" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/it.tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/it.tests/src/main/java/com/adobe/aem/guides/wknd/it/tests/CreatePageIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/it.tests/src/main/java/com/adobe/aem/guides/wknd/it/tests/GetPageIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/it.tests/src/main/java/com/adobe/aem/guides/wknd/it/tests/HtmlUnitClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/it.tests/src/main/java/com/adobe/aem/guides/wknd/it/tests/PublishPageValidationIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps.structure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-base/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-base/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-base/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-dependencies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-dependencies/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-dependencies/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-grid/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-grid/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-grid/less/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-site/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-site/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-site/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/accordion/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/accordion/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/accordion/_cq_template/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/accordion/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/breadcrumb/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/button/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/carousel/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/carousel/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/carousel/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/container/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/container/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/contentfragment/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/contentfragment/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/contentfragmentlist/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/download/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/embed/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/experiencefragment/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/experiencefragment/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/form/button/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/form/container/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/form/container/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/form/hidden/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/form/options/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/form/text/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/helloworld/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/helloworld/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/helloworld/helloworld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/image/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/image/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/languagenavigation/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/list/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/list/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/navigation/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/page/customfooterlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/page/customheaderlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/pdfviewer/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/progressbar/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/remotepage/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/remotepagenext/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/search/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/separator/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/sharing/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/spa/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/tabs/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/tabs/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/tabs/_cq_template/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/tabs/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/teaser/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/text/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/xfpage/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/xfpage/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/xfpage/customfooterlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/components/xfpage/customheaderlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/i18n/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/i18n/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.apps/src/main/content/jcr_root/apps/wknd/i18n/fr.json.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.config/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.config/src/main/content/jcr_root/apps/wknd/osgiconfig/config.author/com.adobe.granite.cors.impl.CORSPolicyImpl~wknd.cfg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.config/src/main/content/jcr_root/apps/wknd/osgiconfig/config.author/com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~wknd.cfg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.config/src/main/content/jcr_root/apps/wknd/osgiconfig/config.publish/org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl.cfg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.config/src/main/content/jcr_root/apps/wknd/osgiconfig/config/org.apache.sling.commons.log.LogManager.factory.config~wknd.cfg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.config/src/main/content/jcr_root/apps/wknd/osgiconfig/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~wknd.cfg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/_sling_configs/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/_sling_configs/_rep_policy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/cloudconfigs/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/dam/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/policies/_rep_policy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/segments/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/segments/summer/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/segments/winter/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/_rep_policy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/nextjs-page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/nextjs-page/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/nextjs-page/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/nextjs-page/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/nextjs-page/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/page/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/page/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/page/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/page/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/page/thumbnail.png.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/page/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/page/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/page/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/remote-page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/remote-page/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/remote-page/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/remote-page/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/remote-page/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/xf/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/xf/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/xf/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/xf/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/template-types/xf/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/_rep_policy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/page-content/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/page-content/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/page-content/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/page-content/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/page-content/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/page-content/thumbnail.png.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/page-content/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/page-content/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/page-content/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/spa-next-remote-page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/spa-next-remote-page/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/spa-next-remote-page/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/spa-next-remote-page/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/spa-next-remote-page/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/spa-remote-page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/spa-remote-page/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/spa-remote-page/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/spa-remote-page/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/spa-remote-page/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/xf-web-variation/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/xf-web-variation/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/xf-web-variation/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/xf-web-variation/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/xf-web-variation/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/xf-web-variation/thumbnail.png.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/xf-web-variation/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/conf/wknd/settings/wcm/templates/xf-web-variation/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/dam/wknd/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/dam/wknd/_jcr_content/folderThumbnail" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/dam/wknd/asset.jpg/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/dam/wknd/asset.jpg/_jcr_content/renditions/cq5dam.thumbnail.140.100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/dam/wknd/asset.jpg/_jcr_content/renditions/cq5dam.thumbnail.319.319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/dam/wknd/asset.jpg/_jcr_content/renditions/cq5dam.thumbnail.48.48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/dam/wknd/asset.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/dam/wknd/asset.jpg/_jcr_content/renditions/original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/dam/wknd/asset.jpg/_jcr_content/renditions/original.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/experience-fragments/wknd/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/experience-fragments/wknd/us/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/experience-fragments/wknd/us/en/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/experience-fragments/wknd/us/en/site/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/experience-fragments/wknd/us/en/site/footer/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/experience-fragments/wknd/us/en/site/footer/master/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/experience-fragments/wknd/us/en/site/header/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/experience-fragments/wknd/us/en/site/header/master/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/experience-fragments/wknd/us/en/site/header/master/_jcr_content/root/logo/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/wknd/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/wknd/_jcr_content/image/file" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/wknd/_jcr_content/image/file.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/wknd/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/wknd/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/wknd/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/wknd/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/wknd/us/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.content/src/main/content/jcr_root/content/wknd/us/en/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/assembly.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/clientlib.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_contentfragment.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_contentfragmentlist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_download.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_experiencefragment.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_form-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_form-options.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_helloworld.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_helloworld.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_languagenavigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_pdfviewer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_progressbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_search.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_separator.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_teaser.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/components/_title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/resources/fonts/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/resources/images/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/site/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/site/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/site/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/site/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/site/styles/container_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/site/styles/experiencefragment_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/site/styles/experiencefragment_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/src/main/webpack/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/webpack.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/webpack.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/webpack.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/assembly-ui-test-docker-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/docker-compose-wdio-chrome.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/docker-compose-wdio-firefox.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/assets/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/lib/commons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/lib/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/lib/wdio-pixelmatch-service/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/lib/wdio-pixelmatch-service/comparisonstrategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/lib/wdio-pixelmatch-service/fileutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/lib/wdio-pixelmatch-service/launcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/lib/wdio-pixelmatch-service/pathutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/lib/wdio.commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/specs/aem/assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/specs/aem/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/specs/aem/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/specs/aem/sites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/wdio.conf.cloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/wdio.conf.commons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/test-module/wdio.conf.local.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aem-guides-wknd/ui.tests/wait-for-grid.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FUVQJwRy6OonW2ZAggEC6Vis3k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/ramkumarpandian/Documents/Projects/My-repo/PandianRamkumar/development-cloud/aem-guides-wknd/ui.frontend/node_modules/typescript/lib"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/aem-guides-wknd/ui.frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.prod" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a696ff49-cf94-4fe8-9ba2-63335b801d05" name="Changes" comment="" />
+      <created>1664546632091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664546632091</updated>
+      <workItem from="1664546633215" duration="5262000" />
+    </task>
+    <task id="LOCAL-00001" summary="committed workspace.xml from test branch one">
+      <created>1664546682659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664546682659</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="committed workspace.xml from test branch one" />
+    <MESSAGE value="Committed files fom first AEM cloud project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committed files fom first AEM cloud project" />
   </component>
 </project>
