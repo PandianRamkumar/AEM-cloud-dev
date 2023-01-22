@@ -21,3 +21,49 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Maven
+target/
+dist/
+
+# JetBrains IDE
+.idea/
+
+# idea project files
+.idea
+*.iml
+# VisualStudio Code files
+.vscode
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+#c cache-loader cache
+.cache-loader
+
+### Project
+
+/dist/
+.DS_Store
+/source/frontend/node
+
+# Applications
+*.app
+*.exe
+
+# Large media files
+
+node
+/ui.frontend/.theme
+/.scannerwork/
+.theme
+/.idea/
